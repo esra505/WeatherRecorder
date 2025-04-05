@@ -87,7 +87,6 @@ def main():
         wind = float(input(" Enter wind speed (mph): "))
         pressure = float(input(" Enter pressure (mb): "))
         
-        # add 3 more weather phenomenon here, such as UV index, etc.
         
         records[date] = {
             "temperature": temperature,
@@ -95,7 +94,6 @@ def main():
             "dew_point": dew_point,
             "wind": wind,
             "pressure": pressure,
-        # add the key-value pairs here...
         }
         
     print("\nSaving to file...")
@@ -110,8 +108,6 @@ def main():
         dew_point = data["dew_point"]
         wind = data["wind"]
         pressure = data["pressure"]
-        # phenomenon4 = data["phenomenon4"]
-        # phenomenon5 = data["phenomenon5"]
         
         print(f"{formatted_date}\t| {temperature:.1f}°C\t| {humidity:.1f}%\t {dew_point:.1f}°C\t| {wind:.1f}mph\t| {pressure:.1f}mb")
         
