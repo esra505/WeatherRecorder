@@ -1,0 +1,16 @@
+{
+    "2025-04-03": {
+        "temperature": 23.0,
+        "humidity": 54.0,
+        "dew_point": 90.0,
+        "wind": 40.0,
+        "pressure": 1234.0
+    },
+    "2025-04-04": {
+        "temperature": 35.0,
+        "humidity": 54.0,
+        "dew_point": 60.0,
+        "wind": 80.0,
+        "pressure": 1013.0
+    }
+}
